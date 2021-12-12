@@ -25,6 +25,7 @@ class RegisterPage extends React.Component {
     handleSubmit = async (event) => {
         event.preventDefault()
         const { username, password,rePassword } = this.state
+        console.log(username)
 
         try {
 

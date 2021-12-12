@@ -3,7 +3,8 @@ const env = process.env.NODE_ENV || "development";
 const config = {
     development: {
         port: process.env.PORT || 9999,
-        dbURL: 'mongodb+srv://user:user123@workshop.lrmp7.mongodb.net/Workshop?retryWrites=true&w=majority',
+        dbURL: "mongodb://localhost:27017/",
+        // dbURL: 'mongodb+srv://dimana:dimana@signupapp.lrmp7.mongodb.net/SignUpApp?retryWrites=true&w=majority',
         cookie: "x-auth-token"
     },
     production: {}
